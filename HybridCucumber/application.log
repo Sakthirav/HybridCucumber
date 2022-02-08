@@ -1,0 +1,7 @@
+2022-02-08 10:05:11,796  INFO [main] LidraryClass:39 - *******Starting with Browser Set Up*********
+2022-02-08 10:05:19,765  INFO [main] LidraryClass:78 - Launched the cucumber Application
+2022-02-08 10:05:19,765  INFO [main] LidraryClass:18 - *******Browser Launch*********
+2022-02-08 10:05:19,870  INFO [main] LidraryClass:24 - *******Enter username and password*********
+2022-02-08 10:05:21,401  INFO [main] LidraryClass:29 - *******Click submit button*********
+2022-02-08 10:05:21,550  INFO [main] LidraryClass:35 - *******Taking Screenshot*********
+2022-02-08 10:05:21,649  INFO [main] LidraryClass:83 - Exiting the application and closing the browser

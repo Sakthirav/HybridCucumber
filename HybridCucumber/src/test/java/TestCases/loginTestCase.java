@@ -16,13 +16,15 @@ Seleniumutility selenium;
 	@BeforeMethod
 	public void openapp()
 	{
-		launchapp("chrome","https://opensource-demo.orangehrmlive.com/");
+		browserSetUp();
+		//("chrome","https://opensource-demo.orangehrmlive.com/");
 	}
 	@Test
 	public void login()
 	{
 		 lp=new LogininPage(driver);
 		lp.login("Admin","admin123");
+		lp.submit();
 	}
 	
 	@AfterMethod
@@ -30,6 +32,9 @@ Seleniumutility selenium;
 	{
 	 selenium=new Seleniumutility(driver);
 	 selenium.screenshot("C:\\Users\\sakthir\\git\\HybridCucumber\\HybridCucumber\\src\\test\\resources\\Screenshortslogin.png");
-	 closeapp();
+	 //closeapp();
+	}
+	public void close() {
+		tearDown();
 	}
 }

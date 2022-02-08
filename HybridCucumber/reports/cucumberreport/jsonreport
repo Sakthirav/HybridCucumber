@@ -1,0 +1,33 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-04T11:09:54.857Z",
+        "line": 10,
+        "name": "",
+        "description": "",
+        "id": "to-test-the-orangehrm-application;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-02-04T11:09:55.020Z",
+        "line": 11,
+        "name": "",
+        "description": "",
+        "id": "to-test-the-orangehrm-application;;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": []
+      }
+    ],
+    "name": "To test the orangehrm application",
+    "description": "",
+    "id": "to-test-the-orangehrm-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/TestCase.feature",
+    "tags": []
+  }
+]

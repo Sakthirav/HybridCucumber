@@ -23,7 +23,6 @@ public class LogininPage {
 		username.sendKeys(uname);
 		password.sendKeys(psword);
 	
-		
 	}
 	
 	public void submit() {
